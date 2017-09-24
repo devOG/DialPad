@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/showCallList"
+        android:title="@string/show_call_list"
+        android:icon="@drawable/ic_action_call_list"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/showDownloadSound"
+        android:title="@string/show_download_sound"
+        android:icon="@drawable/ic_action_download"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/saveToCallList"
+        android:title="@string/save_number"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"
+        app:showAsAction="never"/>
+
+</menu>
